@@ -1,0 +1,80 @@
+/*globales*/
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+img{
+    width: 100%;
+}
+main{
+    margin-top: 80px;
+}
+/*boostrap*/
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.my5{
+ margin: 50px 0;
+}
+.mt2{
+    margin-top: 20px;
+}
+.py5{
+ padding: 50px 0;
+}
+.pt2{
+    padding-top: 20px;
+}
+.df{
+    display: flex;
+}
+.jcc{
+    justify-content: center;
+}
+.ali{
+    align-items: center;
+}
+.tac{
+    text-align: center;
+}
+/*styles*/
+
+/*header*/
+.nav{
+    display: flex;
+    justify-content: end;
+}
+.nav__list{
+    display: flex;
+}
+/*banner*/
+.banner__title{
+        background-color: lightskyblue;
+        font-size: 50px;
+        font-weight: 200;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        text-transform: uppercase;
+        display: inline-block;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 600px) {
+    .banner{
+        grid-template-columns: 1fr;
+    }
+  }
+/*cards*/
+.card__link{
+    display: block;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
